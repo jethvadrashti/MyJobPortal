@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  Debug ="true" CodeFile="jobseekermaster.master.cs" Inherits="jobseekermaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="w3.css" rel="stylesheet" type="text/css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div>
+    <header class="w3-container w3-light-grey">
+      <h1 class="w3-jumbo">JOB PORTAL!</h1>
+       <p class="w3-xlarge">Search you Fav Jobs...</p>
+    </header>
+
+    <div class="w3-topnav w3-red w3-large">
+  <a href="homepage.aspx" >Home</a>
+  <a href="search_job.aspx">Search Jobs</a>
+  <a href="#">Profile </a>
+  <a href="#">About us</a>
+  <a href="Sign_out.aspx">Sign out</a>
+  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a > <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></a>
+</div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+
+
+
+
+        </asp:ContentPlaceHolder>
+
+
+        <footer class="w3-container w3-light-grey">
+<br />
+<br />
+
+  <p style=" text-align :center">copyright@2018</p>
+  <div >
+  
+  </div>
+</footer>
+
+    </div>
+    </form>
+</body>
+</html>
